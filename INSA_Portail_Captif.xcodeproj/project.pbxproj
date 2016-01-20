@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92C8E83A1C4FF6D800E3F07E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E8391C4FF6D800E3F07E /* AppDelegate.swift */; };
+		92C8E83C1C4FF6D800E3F07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C8E83B1C4FF6D800E3F07E /* Assets.xcassets */; };
+		92C8E83F1C4FF6D800E3F07E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C8E83D1C4FF6D800E3F07E /* MainMenu.xib */; };
+		92C8E84A1C4FF6D800E3F07E /* INSA_Portail_CaptifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E8491C4FF6D800E3F07E /* INSA_Portail_CaptifTests.swift */; };
+		92C8E8551C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E8541C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92C8E8461C4FF6D800E3F07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C8E82E1C4FF6D800E3F07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C8E8351C4FF6D800E3F07E;
+			remoteInfo = INSA_Portail_Captif;
+		};
+		92C8E8511C4FF6D800E3F07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92C8E82E1C4FF6D800E3F07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C8E8351C4FF6D800E3F07E;
+			remoteInfo = INSA_Portail_Captif;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92C8E8361C4FF6D800E3F07E /* INSA_Portail_Captif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = INSA_Portail_Captif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C8E8391C4FF6D800E3F07E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92C8E83B1C4FF6D800E3F07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92C8E83E1C4FF6D800E3F07E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		92C8E8401C4FF6D800E3F07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C8E8451C4FF6D800E3F07E /* INSA_Portail_CaptifTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INSA_Portail_CaptifTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C8E8491C4FF6D800E3F07E /* INSA_Portail_CaptifTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INSA_Portail_CaptifTests.swift; sourceTree = "<group>"; };
+		92C8E84B1C4FF6D800E3F07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C8E8501C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INSA_Portail_CaptifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C8E8541C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INSA_Portail_CaptifUITests.swift; sourceTree = "<group>"; };
+		92C8E8561C4FF6D800E3F07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92C8E8331C4FF6D800E3F07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C8E8421C4FF6D800E3F07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C8E84D1C4FF6D800E3F07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92C8E82D1C4FF6D800E3F07E = {
+			isa = PBXGroup;
+			children = (
+				92C8E8381C4FF6D800E3F07E /* INSA_Portail_Captif */,
+				92C8E8481C4FF6D800E3F07E /* INSA_Portail_CaptifTests */,
+				92C8E8531C4FF6D800E3F07E /* INSA_Portail_CaptifUITests */,
+				92C8E8371C4FF6D800E3F07E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92C8E8371C4FF6D800E3F07E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C8E8361C4FF6D800E3F07E /* INSA_Portail_Captif.app */,
+				92C8E8451C4FF6D800E3F07E /* INSA_Portail_CaptifTests.xctest */,
+				92C8E8501C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92C8E8381C4FF6D800E3F07E /* INSA_Portail_Captif */ = {
+			isa = PBXGroup;
+			children = (
+				92C8E8391C4FF6D800E3F07E /* AppDelegate.swift */,
+				92C8E83B1C4FF6D800E3F07E /* Assets.xcassets */,
+				92C8E83D1C4FF6D800E3F07E /* MainMenu.xib */,
+				92C8E8401C4FF6D800E3F07E /* Info.plist */,
+			);
+			path = INSA_Portail_Captif;
+			sourceTree = "<group>";
+		};
+		92C8E8481C4FF6D800E3F07E /* INSA_Portail_CaptifTests */ = {
+			isa = PBXGroup;
+			children = (
+				92C8E8491C4FF6D800E3F07E /* INSA_Portail_CaptifTests.swift */,
+				92C8E84B1C4FF6D800E3F07E /* Info.plist */,
+			);
+			path = INSA_Portail_CaptifTests;
+			sourceTree = "<group>";
+		};
+		92C8E8531C4FF6D800E3F07E /* INSA_Portail_CaptifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92C8E8541C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift */,
+				92C8E8561C4FF6D800E3F07E /* Info.plist */,
+			);
+			path = INSA_Portail_CaptifUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92C8E8351C4FF6D800E3F07E /* INSA_Portail_Captif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C8E8591C4FF6D800E3F07E /* Build configuration list for PBXNativeTarget "INSA_Portail_Captif" */;
+			buildPhases = (
+				92C8E8321C4FF6D800E3F07E /* Sources */,
+				92C8E8331C4FF6D800E3F07E /* Frameworks */,
+				92C8E8341C4FF6D800E3F07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INSA_Portail_Captif;
+			productName = INSA_Portail_Captif;
+			productReference = 92C8E8361C4FF6D800E3F07E /* INSA_Portail_Captif.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92C8E8441C4FF6D800E3F07E /* INSA_Portail_CaptifTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C8E85C1C4FF6D800E3F07E /* Build configuration list for PBXNativeTarget "INSA_Portail_CaptifTests" */;
+			buildPhases = (
+				92C8E8411C4FF6D800E3F07E /* Sources */,
+				92C8E8421C4FF6D800E3F07E /* Frameworks */,
+				92C8E8431C4FF6D800E3F07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C8E8471C4FF6D800E3F07E /* PBXTargetDependency */,
+			);
+			name = INSA_Portail_CaptifTests;
+			productName = INSA_Portail_CaptifTests;
+			productReference = 92C8E8451C4FF6D800E3F07E /* INSA_Portail_CaptifTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92C8E84F1C4FF6D800E3F07E /* INSA_Portail_CaptifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C8E85F1C4FF6D800E3F07E /* Build configuration list for PBXNativeTarget "INSA_Portail_CaptifUITests" */;
+			buildPhases = (
+				92C8E84C1C4FF6D800E3F07E /* Sources */,
+				92C8E84D1C4FF6D800E3F07E /* Frameworks */,
+				92C8E84E1C4FF6D800E3F07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92C8E8521C4FF6D800E3F07E /* PBXTargetDependency */,
+			);
+			name = INSA_Portail_CaptifUITests;
+			productName = INSA_Portail_CaptifUITests;
+			productReference = 92C8E8501C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92C8E82E1C4FF6D800E3F07E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arthur Papailhau";
+				TargetAttributes = {
+					92C8E8351C4FF6D800E3F07E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					92C8E8441C4FF6D800E3F07E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 92C8E8351C4FF6D800E3F07E;
+					};
+					92C8E84F1C4FF6D800E3F07E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 92C8E8351C4FF6D800E3F07E;
+					};
+				};
+			};
+			buildConfigurationList = 92C8E8311C4FF6D800E3F07E /* Build configuration list for PBXProject "INSA_Portail_Captif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92C8E82D1C4FF6D800E3F07E;
+			productRefGroup = 92C8E8371C4FF6D800E3F07E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C8E8351C4FF6D800E3F07E /* INSA_Portail_Captif */,
+				92C8E8441C4FF6D800E3F07E /* INSA_Portail_CaptifTests */,
+				92C8E84F1C4FF6D800E3F07E /* INSA_Portail_CaptifUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92C8E8341C4FF6D800E3F07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C8E83C1C4FF6D800E3F07E /* Assets.xcassets in Resources */,
+				92C8E83F1C4FF6D800E3F07E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C8E8431C4FF6D800E3F07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C8E84E1C4FF6D800E3F07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92C8E8321C4FF6D800E3F07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C8E83A1C4FF6D800E3F07E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C8E8411C4FF6D800E3F07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C8E84A1C4FF6D800E3F07E /* INSA_Portail_CaptifTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C8E84C1C4FF6D800E3F07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C8E8551C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92C8E8471C4FF6D800E3F07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C8E8351C4FF6D800E3F07E /* INSA_Portail_Captif */;
+			targetProxy = 92C8E8461C4FF6D800E3F07E /* PBXContainerItemProxy */;
+		};
+		92C8E8521C4FF6D800E3F07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92C8E8351C4FF6D800E3F07E /* INSA_Portail_Captif */;
+			targetProxy = 92C8E8511C4FF6D800E3F07E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92C8E83D1C4FF6D800E3F07E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C8E83E1C4FF6D800E3F07E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92C8E8571C4FF6D800E3F07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92C8E8581C4FF6D800E3F07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		92C8E85A1C4FF6D800E3F07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = INSA_Portail_Captif/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "INSA.INSA-Portail-Captif";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92C8E85B1C4FF6D800E3F07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = INSA_Portail_Captif/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "INSA.INSA-Portail-Captif";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92C8E85D1C4FF6D800E3F07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = INSA_Portail_CaptifTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "INSA.INSA-Portail-CaptifTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INSA_Portail_Captif.app/Contents/MacOS/INSA_Portail_Captif";
+			};
+			name = Debug;
+		};
+		92C8E85E1C4FF6D800E3F07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = INSA_Portail_CaptifTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "INSA.INSA-Portail-CaptifTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/INSA_Portail_Captif.app/Contents/MacOS/INSA_Portail_Captif";
+			};
+			name = Release;
+		};
+		92C8E8601C4FF6D800E3F07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = INSA_Portail_CaptifUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "INSA.INSA-Portail-CaptifUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = INSA_Portail_Captif;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		92C8E8611C4FF6D800E3F07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = INSA_Portail_CaptifUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "INSA.INSA-Portail-CaptifUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = INSA_Portail_Captif;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C8E8311C4FF6D800E3F07E /* Build configuration list for PBXProject "INSA_Portail_Captif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C8E8571C4FF6D800E3F07E /* Debug */,
+				92C8E8581C4FF6D800E3F07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92C8E8591C4FF6D800E3F07E /* Build configuration list for PBXNativeTarget "INSA_Portail_Captif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C8E85A1C4FF6D800E3F07E /* Debug */,
+				92C8E85B1C4FF6D800E3F07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92C8E85C1C4FF6D800E3F07E /* Build configuration list for PBXNativeTarget "INSA_Portail_CaptifTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C8E85D1C4FF6D800E3F07E /* Debug */,
+				92C8E85E1C4FF6D800E3F07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92C8E85F1C4FF6D800E3F07E /* Build configuration list for PBXNativeTarget "INSA_Portail_CaptifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C8E8601C4FF6D800E3F07E /* Debug */,
+				92C8E8611C4FF6D800E3F07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92C8E82E1C4FF6D800E3F07E /* Project object */;
+}
