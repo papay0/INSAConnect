@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6233" systemVersion="14A329f" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6233"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,9 +12,11 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="INSA_Portail_Captif" customModuleProvider="target">
             <connections>
-                <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
+                <outlet property="connectionResidenceItem" destination="dxQ-Wa-cLs" id="hd0-E4-45S"/>
+                <outlet property="connectionWifiINSAItem" destination="kMO-FM-gRZ" id="8yy-2s-ama"/>
+                <outlet property="statusMenu" destination="H23-o1-W28" id="TLp-bI-IQH"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
@@ -666,15 +669,33 @@
                 </menuItem>
             </items>
         </menu>
-        <window title="INSA_Portail_Captif" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1177"/>
-            <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
-                <autoresizingMask key="autoresizingMask"/>
-            </view>
-        </window>
+        <menu id="H23-o1-W28">
+            <items>
+                <menuItem title="Connexion résidence" keyEquivalent="p" id="dxQ-Wa-cLs">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="connectionResidenceButtonClicked:" target="Voe-Tx-rLC" id="30r-Cv-tCV"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Connexion wifi INSA" keyEquivalent="i" id="kMO-FM-gRZ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="connectionWifiINSAButtonClicked:" target="Voe-Tx-rLC" id="JbC-ah-PyI"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="6vH-pf-cCW"/>
+                <menuItem title="Réglages" keyEquivalent="r" id="bFr-Eh-Skl">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="settingsButtonClicked:" target="Voe-Tx-rLC" id="dpx-UX-tGm"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="288.5" y="349.5"/>
+        </menu>
+        <drawer trailingOffset="15" id="vrQ-v8-FJI">
+            <size key="contentSize" width="100" height="100"/>
+            <size key="maxContentSize" width="10000" height="10000"/>
+        </drawer>
     </objects>
 </document>

@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92C8E8351C4FF6D800E3F07E"
+               BuildableName = "INSA_Portail_Captif.app"
+               BlueprintName = "INSA_Portail_Captif"
+               ReferencedContainer = "container:INSA_Portail_Captif.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92C8E8441C4FF6D800E3F07E"
+               BuildableName = "INSA_Portail_CaptifTests.xctest"
+               BlueprintName = "INSA_Portail_CaptifTests"
+               ReferencedContainer = "container:INSA_Portail_Captif.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92C8E84F1C4FF6D800E3F07E"
+               BuildableName = "INSA_Portail_CaptifUITests.xctest"
+               BlueprintName = "INSA_Portail_CaptifUITests"
+               ReferencedContainer = "container:INSA_Portail_Captif.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "92C8E8351C4FF6D800E3F07E"
+            BuildableName = "INSA_Portail_Captif.app"
+            BlueprintName = "INSA_Portail_Captif"
+            ReferencedContainer = "container:INSA_Portail_Captif.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "92C8E8351C4FF6D800E3F07E"
+            BuildableName = "INSA_Portail_Captif.app"
+            BlueprintName = "INSA_Portail_Captif"
+            ReferencedContainer = "container:INSA_Portail_Captif.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "92C8E8351C4FF6D800E3F07E"
+            BuildableName = "INSA_Portail_Captif.app"
+            BlueprintName = "INSA_Portail_Captif"
+            ReferencedContainer = "container:INSA_Portail_Captif.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
