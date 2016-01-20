@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SettingsViewController" customModule="INSA_Portail_Captif" customModuleProvider="target">
             <connections>
+                <outlet property="infiniteConnectionButton" destination="DoF-nq-ysW" id="zQ9-A1-Vqg"/>
                 <outlet property="passwordTextField" destination="uth-su-mcj" id="o4T-B8-lDa"/>
                 <outlet property="pseudoTextField" destination="0YX-2G-wEX" id="pVw-07-wgt"/>
                 <outlet property="saveAndCloseButton" destination="PqW-Zc-i99" id="eMR-I1-X6u"/>

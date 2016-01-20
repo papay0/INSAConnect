@@ -13,6 +13,7 @@ class SettingsViewController: NSViewController, NSTextFieldDelegate {
     @IBOutlet weak var pseudoTextField: NSTextField!
     @IBOutlet weak var passwordTextField: NSSecureTextField!
     @IBOutlet weak var saveAndCloseButton: NSButton!
+    @IBOutlet weak var infiniteConnectionButton: NSButton!
     
     var pseudoChanged = false
     var passwordChanged = false
@@ -21,13 +22,20 @@ class SettingsViewController: NSViewController, NSTextFieldDelegate {
         super.viewDidLoad()
         if let pseudo =  NSUserDefaults.standardUserDefaults().stringForKey(Information.pseudo) {
             pseudoTextField.stringValue = pseudo
+            pseudoChanged = true
         }
         if let password = NSUserDefaults.standardUserDefaults().stringForKey(Information.password) {
             passwordTextField.stringValue = password
+            passwordChanged = true
         }
+        
         saveAndCloseButton.enabled = false
+        infiniteConnectionButton.enabled = false
+        
         pseudoTextField.delegate = self
         passwordTextField.delegate = self
+        
+        updateUI()
     }
     
     override func controlTextDidChange(obj: NSNotification) {
