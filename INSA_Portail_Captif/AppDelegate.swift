@@ -97,5 +97,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func closePopover(sender: AnyObject?) {
         popover.performClose(sender)
     }
+    
+    @IBAction func quitButtonClicked(sender: NSMenuItem) {
+         NSApplication.sharedApplication().terminate(self)
+    }
+    
 }
 

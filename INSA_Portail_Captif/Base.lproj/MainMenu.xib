@@ -690,6 +690,13 @@
                         <action selector="settingsButtonClicked:" target="Voe-Tx-rLC" id="dpx-UX-tGm"/>
                     </connections>
                 </menuItem>
+                <menuItem isSeparatorItem="YES" id="2WA-2O-Rnp"/>
+                <menuItem title="Quitter" id="Pib-pB-N4g">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitButtonClicked:" target="Voe-Tx-rLC" id="twQ-Nb-Hnu"/>
+                    </connections>
+                </menuItem>
             </items>
             <point key="canvasLocation" x="288.5" y="349.5"/>
         </menu>
