@@ -30,7 +30,7 @@ class SettingsViewController: NSViewController, NSTextFieldDelegate {
         }
         
         saveAndCloseButton.enabled = false
-        infiniteConnectionButton.enabled = false
+        infiniteConnectionButton.enabled = true
         
         pseudoTextField.delegate = self
         passwordTextField.delegate = self

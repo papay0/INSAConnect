@@ -20,8 +20,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
     let popover = NSPopover()
-
-    var settingsViewController: SettingsViewController!
+    
+    let network = Network()
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
 
@@ -59,21 +59,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let pseudo = NSUserDefaults.standardUserDefaults().stringForKey(Information.pseudo)!
         let password = NSUserDefaults.standardUserDefaults().stringForKey(Information.password)!
         let URL = "https://portail-promologis-lan.insa-toulouse.fr:8003"
-        requestServerForAConnection(URL, pseudo: pseudo, password: password)
+        network.requestServerForAConnection(URL, pseudo: pseudo, password: password)
     }
     
-    func requestServerForAConnection(url:String, pseudo: String, password: String) {
-        Alamofire.request(.POST, url, parameters: ["auth_user":pseudo, "auth_pass":password, "accept":"Connection"]).responseJSON { response in
-            print("Request: \(response.request)\n\n")
-            print("Response: \(response.response)\n\n")
-            let dataString = String(data: response.data!, encoding: NSUTF8StringEncoding)
-            print("Response.data: \(response.data)\n\n")
-            print("Response.result: \(response.result)\n\n")
-            print("Response.dataString: \(dataString!)\n\n")
-        }
-
-    }
-
     @IBAction func settingsButtonClicked(sender: NSMenuItem) {
         if popover.shown {
             closePopover(sender)
@@ -85,7 +73,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let pseudo = NSUserDefaults.standardUserDefaults().stringForKey(Information.pseudo)!
         let password = NSUserDefaults.standardUserDefaults().stringForKey(Information.password)!
         let URL = "https://portail-invites-lan.insa-toulouse.fr:8003"
-        requestServerForAConnection(URL, pseudo: pseudo, password: password)
+        network.requestServerForAConnection(URL, pseudo: pseudo, password: password)
+
     }
     
     func showPopover(sender: AnyObject?) {

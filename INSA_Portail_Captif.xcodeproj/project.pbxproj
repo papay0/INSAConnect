@@ -12,6 +12,7 @@
 		92C8E83F1C4FF6D800E3F07E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C8E83D1C4FF6D800E3F07E /* MainMenu.xib */; };
 		92C8E84A1C4FF6D800E3F07E /* INSA_Portail_CaptifTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E8491C4FF6D800E3F07E /* INSA_Portail_CaptifTests.swift */; };
 		92C8E8551C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C8E8541C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift */; };
+		92DC32BF1C5111FD00B1EF8B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DC32BE1C5111FD00B1EF8B /* NetworkManager.swift */; };
 		92FC88491C500BF800E4F884 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC88471C500BF800E4F884 /* SettingsViewController.swift */; };
 		92FC884A1C500BF800E4F884 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92FC88481C500BF800E4F884 /* SettingsViewController.xib */; };
 		92FC88841C501DB600E4F884 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FC88831C501DB600E4F884 /* Information.swift */; };
@@ -47,6 +48,7 @@
 		92C8E8501C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INSA_Portail_CaptifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C8E8541C4FF6D800E3F07E /* INSA_Portail_CaptifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INSA_Portail_CaptifUITests.swift; sourceTree = "<group>"; };
 		92C8E8561C4FF6D800E3F07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DC32BE1C5111FD00B1EF8B /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		92FC88471C500BF800E4F884 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		92FC88481C500BF800E4F884 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		92FC88831C501DB600E4F884 /* Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		92C8E8381C4FF6D800E3F07E /* INSA_Portail_Captif */ = {
 			isa = PBXGroup;
 			children = (
+				92DC32C01C51121600B1EF8B /* Network */,
 				92FC884B1C500C0300E4F884 /* Settings */,
 				92C8E8391C4FF6D800E3F07E /* AppDelegate.swift */,
 				92FC88831C501DB600E4F884 /* Information.swift */,
@@ -141,6 +144,14 @@
 				92C8E8561C4FF6D800E3F07E /* Info.plist */,
 			);
 			path = INSA_Portail_CaptifUITests;
+			sourceTree = "<group>";
+		};
+		92DC32C01C51121600B1EF8B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				92DC32BE1C5111FD00B1EF8B /* NetworkManager.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 		92FC884B1C500C0300E4F884 /* Settings */ = {
@@ -342,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DC32BF1C5111FD00B1EF8B /* NetworkManager.swift in Sources */,
 				92FC88841C501DB600E4F884 /* Information.swift in Sources */,
 				92C8E83A1C4FF6D800E3F07E /* AppDelegate.swift in Sources */,
 				92FC88491C500BF800E4F884 /* SettingsViewController.swift in Sources */,

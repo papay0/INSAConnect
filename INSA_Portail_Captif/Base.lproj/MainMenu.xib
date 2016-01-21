@@ -691,7 +691,7 @@
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="2WA-2O-Rnp"/>
-                <menuItem title="Quitter" id="Pib-pB-N4g">
+                <menuItem title="Quitter" keyEquivalent="q" id="Pib-pB-N4g">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="quitButtonClicked:" target="Voe-Tx-rLC" id="twQ-Nb-Hnu"/>
