@@ -17,6 +17,8 @@ class SettingsViewController: NSViewController, NSTextFieldDelegate {
     
     var pseudoChanged = false
     var passwordChanged = false
+    
+    let myDelegate = NSApplication.sharedApplication().delegate as! AppDelegate
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,8 +67,6 @@ class SettingsViewController: NSViewController, NSTextFieldDelegate {
     }
     
     @IBAction func saveAndCloseButton(sender: AnyObject) {
-        let myDelegate = NSApplication.sharedApplication().delegate as! AppDelegate
-        
         NSUserDefaults.standardUserDefaults().setObject(pseudoTextField.stringValue, forKey: Information.pseudo)
         NSUserDefaults.standardUserDefaults().setObject(passwordTextField.stringValue, forKey: Information.password)
         NSUserDefaults.standardUserDefaults().setBool(true, forKey: Information.saved)
@@ -74,6 +74,9 @@ class SettingsViewController: NSViewController, NSTextFieldDelegate {
     
         myDelegate.updateItemMenuEnabled()
         myDelegate.closePopover(sender)
+        
+        print("infiniteConnectionButton \(Bool(infiniteConnectionButton.state))")
+        myDelegate.network.infiniteConnectionManager(Bool(infiniteConnectionButton.state))
     }
 
 }
